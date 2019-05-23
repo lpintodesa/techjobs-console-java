@@ -47,7 +47,6 @@ public class JobData {
         for (int i = 0; i < n-1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 if ((values.get(j)).compareTo(values.get(j + 1)) > 0 ) {
-                    // swap arr[j+1] and arr[i]
                     temp = values.get(j);
                     values.set(j, values.get(j + 1));
                     values.set(j + 1, temp);
